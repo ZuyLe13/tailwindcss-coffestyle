@@ -11,6 +11,7 @@
     <body>
         <div id="root">
             <div class="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8">
+                <!--------------------- Header --------------------->
                 <header class="p-6 mx-auto">
                     <nav class="flex flex-row justify-between items-center relative">
                         <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
@@ -80,6 +81,7 @@
                     </nav>
                 </header>
                 <main>
+                    <!--------------------- Slider --------------------->
                     <div class="slider h-[530px] bg-[url('./img/slider-bg.jpg')] bg-cover bg-no-repeat bg-bottom">
                         <div class="w-full h-full flex justify-center items-center bg-gray-900 bg-opacity-40">
                             <div class="mx-16 font-medium text-white text-center">
@@ -104,6 +106,7 @@
                         </div>
                     </div>
 
+                    <!--------------------- Story --------------------->
                     <div class="story flex justify-center items-center">
                         <div class="px-4 sm:px-16 md:px-32 lg:px-64 xl:px-96 py-32 text-center">
                             <div class="text-3xl leading-10 mb-6">
@@ -125,6 +128,7 @@
                         </div>
                     </div>
 
+                    <!--------------------- Featured Mugs --------------------->
                     <div class="ct-subheadline">
                         <div class="ct-subheadline-decor-line"></div>
                         <div class="ct-subheadline-label">FEATURED MUGS</div>
@@ -181,6 +185,7 @@
                         </div>
                     </div>
 
+                    <!--------------------- More Products --------------------->
                     <div class="ct-subheadline">
                         <div class="ct-subheadline-decor-line"></div>
                         <div class="ct-subheadline-label">MORE PRODUCTS</div>
@@ -388,6 +393,7 @@
                         </div>
                     </div>
 
+                    <!--------------------- Magazine --------------------->
                     <div class="ct-subheadline">
                         <div class="ct-subheadline-decor-line"></div>
                         <div class="ct-subheadline-label">
@@ -417,9 +423,11 @@
                         </div>
                     </div>
 
+                    <!--------------------- Parallax --------------------->
                     <div class="ct-parallax bg-[url('./img/parallax.jpg')] bg-cover bg-no-repeat bg-center h-[400px] mb-24 
                         bg-fixed w-[100vw] relative left-[calc(-50vw_+_49.4%)]"></div>
 
+                    <!--------------------- Lifestyle Story --------------------->
                     <div class="ct-subheadline">
                         <div class="ct-subheadline-decor-line"></div>
                         <div class="ct-subheadline-label">
@@ -510,14 +518,30 @@
                         </div>
                     </div>
 
-                    <div class="ct-subheadline">
-                        <div class="ct-subheadline-decor-line"></div>
-                        <div class="ct-subheadline-label">
-                            SIGN UP AND GET FREE COFFEE BAGS
+                    <!--------------------- Subscribe Us --------------------->
+                    <div class="subscribe-us h-[350px] bg-[#1d1f2e] flex flex-col justify-center items-center mb-24">
+                        <div class="flex justify-center items-center mb-4">
+                            <div class="w-8 h-px bg-gray-700"></div>
+                            <div class="uppercase mx-4 tracking-widest text-gray-400 font-bold text-sm text-center">
+                                SIGN UP AND GET FREE COFFEE BAGS
+                            </div>
+                            <div class="w-8 h-px bg-gray-700"></div>
                         </div>
-                        <div class="ct-subheadline-decor-line"></div>
+                        <div class="text-4xl text-white mb-8">Coffee Updates</div>
+                        <div class="ct-form ">
+                            <div class="flex flex-col sm:flex-row justify-center items-center gap-3">
+                                <div class="ct-form-item text-center">
+                                    <input type="email" placeholder="CUSTOMER@COFFEESTYLE.IO" class="px-6 py-4 w-[350px] max-w-[80%] xs:max-w-full bg-inherit border-[1px] 
+                                        border-gray-700 outline-none text-white leading-5 hover:border-gray-300 duration-300 focus:border-gray-300
+                                        placeholder:uppercase placeholder:text-sm placeholder:tracking-widest placeholder:font-semibold">
+                                </div>
+                                <div class="ct-form-item">
+                                    <button type="submit" class="ct-button bg-white text-gray-900 w-max">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="subscribe-us"></div>
+
                 </main>
                 <footer>footer</footer>
             </div>
